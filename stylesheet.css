@@ -29,7 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font: 36px Calibri bold;
+  font-family: monospace;
+  font: 36px bold;
 }
 
 h2 {
