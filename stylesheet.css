@@ -78,9 +78,11 @@ ul {
   display:block;
   margin:auto;
   vertical-align:middle;
+  opacity: 0.5;
 }
 
 #servicelist img:hover{
+  opacity: 1.0;
   -webkit-filter: brightness(0.5) sepia(1) saturate(10) hue-rotate(20deg)
 }
 
@@ -123,7 +125,7 @@ Full-Width Styles
 }
 
 header{
-  padding-left:5%;
+  padding-left:3%;
 }
 
 footer{
