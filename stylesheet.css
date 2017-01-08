@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color:#ffffff;
+  border:0;
+  background: url(./images/IMG_20160901_181150.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 16px;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow:hidden;
+}
+
+
+
+/*******************************************************************************
+Full-Width Styles
+*******************************************************************************/
+
+.outer {
+  width: 100%;
+}
+
+.inner {
+  position: relative;
+  max-width: 640px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+#main_content_wrap{
+  min-height:500px;
+}
+
+#main_content {
+  position:absolute;
+  margin:auto;
+  top:50%;
+  left:25%;
+  width:50%;
+  max-width:none;
+  padding:0;
+}
+
+header{
+  padding-left:5%;
+}
+
+footer{
+  width:100%;
+  padding-right:1em;
+  text-align: right;
+  position:absolute;
+  bottom:0;
+}
