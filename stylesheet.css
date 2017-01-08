@@ -24,13 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#ffffff;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-family: 'Courier New', Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;;
   letter-spacing: -1px;
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 700;
+  font: 36px Courier;
 }
 
 h2 {
@@ -58,6 +57,40 @@ ul {
   margin-bottom: 15px;
   list-style: inside;
   padding-left: 20px;
+}
+
+#servicelist{
+  width:50%;
+  min-width:200px;
+  padding:0;
+  margin:auto;
+  list-style-type: none;
+  display: table;
+  table-layout: fixed;
+}
+
+#servicelist li{
+  display:table-cell;
+}
+
+#servicelist img{
+  width:75px;
+  display:block;
+  margin:auto;
+  vertical-align:middle;
+}
+
+#servicelist img:hover{
+  -webkit-filter: brightness(0.5) sepia(1) saturate(10) hue-rotate(20deg)
+}
+
+#sub{
+  padding:0;
+  margin:0;
+}
+
+#title{
+  margin-bottom:0;
 }
 
 /*******************************************************************************
